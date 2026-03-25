@@ -14,7 +14,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
+	"postCreateCommand": "conda install numpy pandas matplotlib scikit-learn jupyter seaborn",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
